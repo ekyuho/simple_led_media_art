@@ -15,11 +15,11 @@ void off(int port) {
 void loop() {
   for (int i=2; i<=13; i++) {
     on(i); 
-    delay(1000); 
+    delay(100); 
   } 
   
   for (int i=2; i<=13; i++) {
     off(i);
-    delay(1000); 
+    delay(100); 
   }
 }
